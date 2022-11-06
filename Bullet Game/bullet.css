@@ -1,0 +1,49 @@
+#score{
+   text-align: auto;
+}
+#Gamebox{  
+   width: 700px;
+   height: 200px;
+   border: 2px solid black;
+   margin: auto;
+   background-image: url('bgRoad.png');
+   margin-top: 50px;
+}
+#Bike{
+   height: 120px;
+   width: 160px;
+   position: relative;
+   top: 75px;
+   left: 40px;
+   background-image: url("BulletBike.png");
+   background-size: cover;
+}
+@keyframes jump {
+   0%{top: 75px;}
+   50%{top: 5px;}
+   75%{top: 5px;}
+   100%{top: 75px;}  
+}
+.jump-animation{
+   animation: jump 0.7s;
+}
+#Cone{
+   height: 40px;
+   width: 20px;
+   position: relative;
+   top: 30px;
+   background-image: url("cone.png");
+   background-size: cover;
+   left: 500px;
+   animation: cone 1.5s infinite;
+}
+@keyframes cone {
+   0%{left: 690px;}
+   100%{left: 0px;}
+}
+#scorebox{
+   border: 2px solid black;
+   width: 700px;   
+   align-content: space-between;
+   margin: auto;
+}
